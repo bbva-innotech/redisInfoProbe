@@ -4,8 +4,8 @@
 NAME=redisInfoProbe
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 RUNDIR=/home/innotech/redisInfoProbe
-DAEMON=$RUNDIR/redisInfoProbe.py
-DAEMON_ARGS=redisInfoProbe.cfg
+DAEMON=$RUNDIR/run.sh
+DAEMON_ARGS=
 USER=innotech
 GROUP=innotech
 PIDDIR=/var/run
