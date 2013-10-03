@@ -1,7 +1,7 @@
-Thu Oct  3 10:07:19 2013 Server Starts
+Thu Oct  3 10:20:53 2013 Server Starts
 Connecting to Redis...
 Connected
-liberty:status:ping : 1380787642798
+liberty:status:ping : 1380788449620
 Posting data to http://1.qlog.innotechapp.com:3001/app/grAUUne3Lv1eqYW5/log
-{'msg': {'memLoad': 12.8, 'cpuLoad': 0.0, 'diskUsed': 9535000576, 'diskFree': 9132904448}, 'secretKey': 'F37P1Y9Xpr8TkltjyDHUsvIN2S48htfu', 'time': 1380787642798, 'tags': 'liberty,probe,server1'}
+{'msg': {'memLoad': 16.6, 'cpuLoad': 0.0, 'diskUsed': 5769732096, 'diskFree': 12898172928}, 'secretKey': 'F37P1Y9Xpr8TkltjyDHUsvIN2S48htfu', 'time': 1380788449620, 'tags': 'liberty,probe,cfgmongodb01'}
 Done OK
