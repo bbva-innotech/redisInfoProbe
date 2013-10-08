@@ -1,5 +1,5 @@
 #!/bin/sh
-apt-get -y install python-pip python-dev
+apt-get -y --force-yes install python-pip python-dev
 pip install psutil redis
 cp redisInfoProbeBase.cfg redisInfoProbe.cfg
 echo "tags = liberty,probe,`hostname`" >> redisInfoProbe.cfg
