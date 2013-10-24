@@ -3,11 +3,11 @@
 
 NAME=redisInfoProbe
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-RUNDIR=/home/innotech/redisInfoProbe
+RUNDIR=/home/ubuntu/redisInfoProbe
 DAEMON=$RUNDIR/run.sh
 DAEMON_ARGS=
-USER=innotech
-GROUP=innotech
+USER=ubuntu
+GROUP=ubuntu
 PIDDIR=/var/run
 PIDNAME=$NAME.pid
 PIDFILE=$PIDDIR/$PIDNAME
